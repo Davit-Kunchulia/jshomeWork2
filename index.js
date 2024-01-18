@@ -5,6 +5,7 @@ for (let i = 5; i <= 100; i = i + 1) {
 }
 
 
+
 // 4
 let array3 = [1, 2, 3, 4, 5];
 
@@ -27,6 +28,11 @@ for (let average = 0; average < array4.length; average++) {
 
 console.log(sum2 / array4.length);
 
+// 6
+let array5 = [1, 2, 3, 7, 6, 9];
+
+
+
 
 // 7
 let user = {
@@ -46,12 +52,20 @@ let user2 = {
     studentstatus: 'active'
 }
 
-if (user2.age < 18 & user2.studentstatus == "active") {
+if (user2.age < 18 && user2.studentstatus == "active") {
     console.log("hello");
 }
+else {
+    console.log("error");
+}
+
 if (user2.name == "levani") {
     console.log("hello levani");
 }
+else {
+    console.log("error");
+}
+
 if (user2.studentstatus == "active" || user2.age < 25) {
     console.log("hello world");
 }
