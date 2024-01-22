@@ -5,6 +5,17 @@ for (let i = 5; i <= 100; i = i + 1) {
 }
 
 
+// 2
+let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];{
+
+for(nat = 0; nat < array1.length; nat++){
+    if(array1[nat] > 0 && array1[nat] < 10){
+        console.log(array1[nat]);
+    }
+}
+}
+
+
 // 4
 let array3 = [1, 2, 3, 4, 5];
 
@@ -71,13 +82,18 @@ else {
 
 // 10
 let numbers = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ]
-if(numbers % 2 == 0){
-    console.log(numbers);
-}
+for(luwi = 0; luwi < numbers.length; luwi = luwi + 1){
+    if(numbers[luwi] % 2 == 0){
+        console.log(numbers[luwi]);
+    }
+ }
+ for(kenti = 0; kenti < numbers.length; kenti = kenti + 1){
+    if(numbers[kenti] % 2 == 1){
+        console.log(numbers[kenti]);
+       }
+    }
 
-if(numbers % 2 == 1){
-    console.log(numbers);
-}
+
 
 // 11
 let users = [
