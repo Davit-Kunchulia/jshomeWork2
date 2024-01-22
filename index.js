@@ -68,6 +68,17 @@ else {
 }
 
 
+
+// 10
+let numbers = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ]
+if(numbers % 2 == 0){
+    console.log(numbers);
+}
+
+if(numbers % 2 == 1){
+    console.log(numbers);
+}
+
 // 11
 let users = [
     { username: 'giorgi', status: false },
