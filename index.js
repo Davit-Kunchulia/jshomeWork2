@@ -6,13 +6,23 @@ for (let i = 5; i <= 100; i = i + 1) {
 
 
 // 2
-let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];{
+let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
 
 for(nat = 0; nat < array1.length; nat++){
     if(array1[nat] > 0 && array1[nat] < 10){
         console.log(array1[nat]);
     }
 }
+
+
+// 3
+let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for(xuti = 0; xuti < array2.length; xuti++){
+    if(array2[xuti] == 5){
+        console.log("არის");
+        break;
+    }
+    
 }
 
 
@@ -39,6 +49,15 @@ for (let average = 0; average < array4.length; average++) {
 console.log(sum2 / array4.length);
 
 
+// 6
+let array5 = [1, 2, 3, 7, 6, 9];
+
+for(shvidi = 0; shvidi < array5.length; shvidi++){
+    if(array5[shvidi] == 7){
+        continue;
+    }
+    console.log(array5[shvidi]);
+}
 // 7
 let user = {
     firstname: "giorgi",
@@ -78,6 +97,17 @@ else {
     console.log("error");
 }
 
+
+// 9
+let array6 = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
+
+for( nulzeMeti = 0; nulzeMeti < array6.length; nulzeMeti++){
+    for( nulzeMeti2 = 0; nulzeMeti2 < array6[nulzeMeti]; nulzeMeti2++){
+    if(array6[nulzeMeti][nulzeMeti2] > 0){
+        console.log(array6[nulzeMeti][nulzeMeti2]);
+    }
+}
+}
 
 
 // 10
